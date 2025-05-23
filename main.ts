@@ -1,6 +1,6 @@
 import { exists } from "https://deno.land/std/fs/exists.ts"; // Import exists function
 
-const envUUID = Deno.env.get('UUID') || 'e5185305-1984-4084-81e0-f77271159c62';
+const envUUID = Deno.env.get('UUID') || '504566e9-89d7-47f8-93fa-5bc7a468ae2f';
 const proxyIP = Deno.env.get('PROXYIP') || '';
 const credit = Deno.env.get('CREDIT') || 'DenoBy-ModsBots';
 
